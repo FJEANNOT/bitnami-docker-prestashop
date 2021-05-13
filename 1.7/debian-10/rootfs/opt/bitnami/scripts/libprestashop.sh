@@ -115,6 +115,7 @@ prestashop_initialize() {
             "--db_password=${db_pass}"
             "--db_server=${db_host}:${db_port}"
             "--db_name=${db_name}"
+            "--prefix=${$PRESTASHOP_DATABASE_PREFIX}"
             "--domain=${PRESTASHOP_HOST}"
             "--firstname=${PRESTASHOP_FIRST_NAME}"
             "--lastname=${PRESTASHOP_LAST_NAME}"
